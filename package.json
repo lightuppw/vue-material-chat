@@ -1,0 +1,24 @@
+{
+  "name": "vue-material-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krasnodaretc/vue-material-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krasnodaretc/vue-material-chat/issues"
+  },
+  "homepage": "https://github.com/Krasnodaretc/vue-material-chat#readme",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8"
+  }
+}
