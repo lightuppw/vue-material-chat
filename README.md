@@ -18,3 +18,4 @@ $ npm install gulp -g
 ```sh
 $ gulp
 ```
+После чего перейти на страницу: [http://localhost:8080/](http://localhost:8080/)
