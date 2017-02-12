@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var connect = require('gulp-connect');
 var sass = require('gulp-sass');
 
-
 gulp.task('connect', function() {
   connect.server({
     root: 'frontend',
@@ -10,11 +9,11 @@ gulp.task('connect', function() {
   });
 });
 
- 
 gulp.task('sass', function () {
   return gulp.src('./frontend/sass/**/*.sass')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./frontend/css'));
+    .pipe(gulp.dest('./frontend/css'))
+    .pipe(connect.reload());
 });
 
 gulp.task('html', function () {
